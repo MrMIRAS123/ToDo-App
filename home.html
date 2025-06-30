@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./Home-Design.css">
+</head>
+
+<body>
+
+    <main>
+        <h2>Tasks</h2>
+        <div class="input_Box">
+            <form class="input">
+                <input type="text" id="Add_Task" placeholder=" Add Your Task">
+            </form>
+            <button type="button" id="Add_Task_Button">+</button>
+        </div>
+
+        <div class="check">
+            <button type="button" id="Completer" disabled>Its Complete</button>
+            <button type="button" id="Activer" disabled>Active this</button>
+        </div>
+        <br>
+        <div class="task_list">
+            <ul id="Tsks">
+                <li class="li_0">
+                    <p>Sample Task</p>
+                    <button type="button" class="BBtn_0" id="Remove_Button">Delet</button>
+                </li>
+            </ul>
+        </div>
+        <div class="Filters">
+            <h3 style="display: flex; justify-content: center;">Filters</h3>
+            <br>
+            <div class="F-option">
+                <button type="button" id="cmp" class="f_button_d">Completed</button>
+                <button type="button" id="act" class="f_button_d">Actives</button>
+                <button type="button" id="all" class="f_button_d">All</button>
+            </div>
+            <div class="f-list">
+                <ul id="filter_list">
+                    <li> Listed Task Example
+                        <button type="button">Remove</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="./Home-Script.js"></script>
+</body>
+
+</html>
