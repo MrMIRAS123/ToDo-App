@@ -21,7 +21,7 @@ function Enable_Button() {
     const Activer = document.querySelector('#Activer');
     const All_Task_Item = document.querySelectorAll("#Tsks li");
 
-    // بررسی اینکه حداقل یکی کلاس _select داره
+    
     let atLeastOneSelected = false;
     for (const item of All_Task_Item) {
         if (item.classList.contains("_select")) {
